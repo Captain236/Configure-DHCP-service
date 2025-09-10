@@ -36,7 +36,54 @@ Key Benefits:
 <img width="884" height="708" alt="8 (2)" src="https://github.com/user-attachments/assets/fa8c4228-c286-4d85-9ac7-d49082d4b997" />
 
 **ii. To add an IPv4 scope, right-click on "IPv4" and select "New Scope."**
-<img width="884" height="708" alt="8 (2)" src="https://github.com/user-attachments/assets/c24c0293-983a-42eb-a23c-748aa241727b" />
+<img width="722" height="746" alt="9 (2)" src="https://github.com/user-attachments/assets/7627e1a2-aef6-4eaf-88d0-49dc351407b2" />
+
+**iii. Enter a name of your choice for the scope and click "Next."**
+<img width="980" height="499" alt="10 (2)" src="https://github.com/user-attachments/assets/d44bdf5d-1c5c-4870-931c-2f51a7256505" />
+
+**iv. Specify the Start and End IP range for the scope and click "Next."**
+<img width="1075" height="497" alt="11 (2)" src="https://github.com/user-attachments/assets/28290ead-2a9b-4cf3-a226-9330e35842a8" />
+
+**v. In "Add Exclusion and Delay," skip assigning any excluded IPs and proceed by clicking "Next."**
+
+WHat is Add Exclusion and Delay in DHCP??
+
+Exclusion: Reserves specific IPs so the DHCP server doesn’t assign them, ensuring static IPs for critical devices.
+
+Delay: Adds a response delay in multi-DHCP setups, allowing the preferred server to assign IPs first.
+<img width="967" height="485" alt="12 (1)" src="https://github.com/user-attachments/assets/12a9dd49-11f1-4967-8d8b-90f67b78345a" />
+
+**vi. What is Lease Duration?**
+
+Lease Duration defines how long a device can use an assigned IP address before it must renew the lease. Shorter durations suit dynamic networks (e.g., Wi-Fi hotspots), while longer durations are ideal for stable environments (e.g., offices).
+<img width="971" height="487" alt="13 (2)" src="https://github.com/user-attachments/assets/f918774f-1021-4578-86ee-9a5d917c4f6a" />
+
+**vii. Enter the Default Gateway IP address and click "Next."**
+<img width="969" height="492" alt="14 (2)" src="https://github.com/user-attachments/assets/faeb4d5f-3bce-48e8-ad1f-2e315859be1b" />
+
+**viii. Click "Next" through the remaining steps until you reach "Finish."**
+<img width="962" height="489" alt="15 (2)" src="https://github.com/user-attachments/assets/179ce39f-ca9a-47e9-be2c-92ca312c874a" />
+
+## Step - 3
+
+**i. Now lets assign the DHCP IP address to our machine , for this type this command**
+<img width="448" height="250" alt="16 (1)" src="https://github.com/user-attachments/assets/74a0e9b8-7856-47b9-8263-f3af9a61d26b" />
+
+**ii. Go to "Network Properties," select your network adapter, then click on "Internet Protocol Version 4 (TCP/IPv4)."**
+<img width="966" height="674" alt="17" src="https://github.com/user-attachments/assets/640f502e-5fd6-41a0-ad43-2188effc4572" />
+
+**iii. Select "Obtain an IP address automatically" and "Obtain DNS server address automatically," then click "OK."**
+<img width="966" height="674" alt="17" src="https://github.com/user-attachments/assets/d7307aac-59f5-4d76-9877-ce7810bd146c" />
+
+**After this, check the network status—you will see that the IP address has been dynamically assigned by the DHCP server.**
+
+
+
+
+
+
+
+
 
 
 
